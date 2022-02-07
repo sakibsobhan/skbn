@@ -1,0 +1,323 @@
+@media (min-width:320px) and (max-width:575px){
+    .banner {
+        padding: 50px 0;
+    }
+    .dropdown-menu {
+        border: 0;
+    }
+    .banner__titel {
+        font-size: 40px;
+    }
+    .banner__para {
+        padding-right: 0px;
+    }
+    .banner__para::after {
+        top: 34%;
+    }
+    .banner__talk {
+        font-size: 14px;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .banner__port {
+        font-size: 14px;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .banner__social {
+        
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+    .banner__icon {
+        font-size: 20px;
+        padding: 10px;
+        line-height: 20px;
+        margin-left: 20px;
+        margin-top: -7px;
+    }
+    .banner__photo {
+        margin-top: 100px;
+    }
+    .banner__ptext {
+        top: -20%;
+        right: 50px;
+    }
+    .banner__learn {
+        left: 25%;
+        width: 50%;
+    }
+    .service {
+        padding: 100px 0;
+    }
+    .service__img {
+        margin-top: 0;
+        margin-left: 70px;
+        margin-bottom: 50px;
+    }
+    .service__imgarrow {
+        bottom: 100px;
+        left: 133px;
+    }
+    .service__text {
+        font-size: 40px;
+    }
+    .service__icon {
+        margin-top: 20px;
+    }
+    .skill {
+        padding: 100px 0;
+    }
+    .skill__title{
+        text-align: center;
+    }
+    .skill__skilldetails{
+        text-align: center;
+    }
+    .skill__exptitle{
+        text-align: center;
+    }
+    .skill__expitem{
+        text-align: center;
+    }
+    .skill__item {
+        width: 120px;
+        text-align: center;
+    }
+    .skill__exptitle {
+        margin-top: 50px;
+    }
+    .skill__para {
+        margin-bottom: 50px;
+    }
+    .skill__hire {
+        margin-top: 80px;
+    }
+    .skill__meimg {
+        bottom: -190px;
+        right: 20px;
+    }
+    .skill__hireme {
+        top: 28px;
+        right: 82px;
+        width: 50%;
+    }
+    .project {
+        padding: 100px 0;
+    }
+    .project__viewproject {
+        margin-left: 60px;
+    }
+    .banner__sidetext {
+        display: none;
+    }
+    .banner__para {
+        margin-bottom: -40px;
+    }
+    .testi {
+        padding: 100px 0;
+    }
+    .testi__slider {
+        margin-top: 0px;
+    }
+    .testi__img{
+        margin: 0 auto;
+        width: 40%;
+    }
+    .testi__comm {
+        margin-top: 10px;
+        width: auto;
+    }
+    .testi__prev {
+        bottom: -70px;
+        right: 150px;
+    }
+    .testi__next {
+        bottom: -70px;
+        right: 90px;
+    }
+    .testi__name {
+        text-align: center;
+    }
+    .testi__desig {
+        text-align: center;
+    }
+    .footer {
+        background: #fcda69;
+        padding-top: 100px;
+    }
+    .footer__round {
+        width: 250px;
+        height: 250px;
+    }
+    .footer__hello {
+        line-height: 250px;
+    }
+    .footer__bottomtext {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+}
+
+/* ------------------------------------ */
+
+
+
+@media (min-width:576px) and (max-width:767px){
+    .banner {
+        padding: 50px 0;
+    }
+    .dropdown-menu {
+        border: 0;
+    }
+    .banner__titel {
+        font-size: 50px;
+    }
+    .banner__para {
+        margin-bottom: 0px !important;
+    }
+    .banner__para::after {
+        top: 36%;
+    }
+    .banner__talk {
+        font-size: 16px;
+        padding: 20px 30px;
+        border-radius: 20px;
+    }
+    .banner__port {
+        font-size: 16px;
+        padding: 20px 30px;
+        border-radius: 20px;
+    }
+    .banner__social {
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    .banner__icon {
+        font-size: 35px;
+        padding: 30px;
+        line-height: 30px;
+        margin-left: 20px;
+        margin-top: -30px;
+    }
+    .banner__photo {
+        margin-top: 150px;
+    }
+    .banner__ptext {
+        top: -18%;
+        right: 153px;
+    }
+    .banner__learn {
+        left: 27%;
+        width: 40%;
+    }
+    .service {
+        padding: 100px 0;
+    }
+    .service__img {
+        margin-top: 0;
+        margin-left: 70px;
+        margin-bottom: 50px;
+    }
+    .service__imgarrow {
+        bottom: 100px;
+        left: 133px;
+    }
+    .service__text {
+        font-size: 40px;
+    }
+    .service__icon {
+        margin-top: 20px;
+    }
+    .skill {
+        padding: 100px 0;
+    }
+    .skill__title {
+        text-align: center;
+    }
+    .skill__skilldetails{
+        text-align: center;
+    }
+    .skill__item {
+        width: 120px;
+    }
+    .skill__list{
+        padding-bottom: 200px;
+    }
+    .skill__exptitle {
+        margin-top: 100px;
+        text-align: center;
+    }
+    .skill__para {
+        margin-bottom: 50px;
+    }
+    .skill__meimg {
+        bottom: -190px;
+        right: 40px;
+    }
+    .skill__hireme {
+        top: -40px;
+        right: 120px;
+        width: 50%;
+    }
+    .project {
+        padding: 100px 0;
+    }
+    .project__viewproject {
+        margin-left: 160px;
+    }
+    .banner__sidetext {
+        display: none;
+    }
+    .banner__para {
+        margin-bottom: -40px;
+    }
+    .testi {
+        padding: 100px 0;
+    }
+    .testi__slider {
+        margin-top: 0px;
+    }
+    .testi__comm {
+        margin-top: 25px;
+        width: auto;
+        text-align: center;
+    }
+    .testi__img{
+        margin: 0 auto;
+        width: 40%;
+    }
+    .testi__prev {
+        bottom: -70px;
+        right: 260px;
+    }
+    .testi__next {
+        bottom: -70px;
+        right: 200px;
+    }
+    .testi__name {
+        text-align: center;
+    }
+    .testi__desig {
+        text-align: center;
+    }
+    .footer {
+        background: #fcda69;
+        padding-top: 100px;
+    }
+    .footer__round {
+        width: 250px;
+        height: 250px;
+    }
+    .footer__hello {
+        line-height: 250px;
+    }
+    .footer__bottomtext {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+}
+
+/* ------------------------------------ */

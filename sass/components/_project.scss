@@ -1,0 +1,78 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+.project {
+  padding: 200px 0;
+  background: $mcolor;
+  margin-top: 30px;
+  position: relative;
+
+  &__item {
+    margin-top: 70px;
+    position: relative;
+    transition: 0.4s;
+
+    &:after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: #000;
+      content: "";
+    }
+    &:hover {
+      filter: drop-shadow(0 0 0.2rem black);
+    }
+  }
+  &__item2 {
+    margin-top: 150px;
+  }
+
+  &__ititle {
+    margin-top: 30px;
+    @include font($ff, 30px, 400, $tcolor);
+  }
+
+  &__ipara {
+    @include font($ff, 16px, 400, $pcolor);
+    margin-top: 10px;
+  }
+
+  &__icon {
+    margin-top: 30px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: $hcolor;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    transform: rotate(45deg);
+    transition: 0.4s;
+    &:hover {
+      background: white;
+      color: $hcolor;
+    }
+  }
+
+  &__aicon {
+    display: inline-block;
+    padding-left: 35px;
+  }
+
+  &__img {
+    margin-top: 30px;
+    transition: 0.4s;
+  }
+  &__viewproject {
+    margin-top: 100px;
+    margin-left: 235px;
+    transform: scale(1);
+    transition: 0.4s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

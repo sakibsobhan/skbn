@@ -1,0 +1,585 @@
+.main-menu ul li {
+  margin: 10px 20px;
+}
+
+.main-menu ul li a {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #18171c;
+}
+
+.main-menu ul li a:hover {
+  color: #fcda69;
+  background: transparent;
+}
+
+.main-menu ul li .show {
+  color: black;
+}
+
+.main-menu form {
+  position: relative;
+}
+
+.main-menu form .form-control {
+  border: transparent;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+
+.main-menu form .form-control:focus {
+  -webkit-box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.075), 0 0 8px rgba(255, 254, 254, 0.6);
+          box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.075), 0 0 8px rgba(255, 254, 254, 0.6);
+}
+
+.main-menu form .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.banner {
+  padding: 100px 0;
+}
+
+.banner__hello {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8873ef;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+.banner__titel {
+  font-family: "Merriweather", serif;
+  font-size: 70px;
+  font-weight: 700;
+  color: #18171c;
+}
+
+.banner__para {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #464549;
+  padding: 60px 0;
+  position: relative;
+  margin-left: 60px;
+  padding-right: 80px;
+}
+
+.banner__para:after {
+  content: "";
+  position: absolute;
+  top: 42%;
+  left: -58px;
+  width: 30px;
+  height: 2px;
+  background: #000;
+  -webkit-transform: translateY(-42%);
+          transform: translateY(-42%);
+}
+
+.banner__talk {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  padding: 20px 30px;
+  background: #8873ef;
+  border: 1px solid #8873ef;
+  border-radius: 20px;
+  margin-right: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.banner__talk i {
+  margin-left: 10px;
+}
+
+.banner__talk:hover {
+  color: #8873ef;
+  background: white;
+  border: 1px solid #8873ef;
+}
+
+.banner__port {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #18171c;
+  padding: 20px 30px;
+  border-radius: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border: 1px solid white;
+}
+
+.banner__port i {
+  margin-left: 10px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  font-size: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.banner__port:hover {
+  color: #8873ef;
+  background: white;
+  border: 1px solid #8873ef;
+}
+
+.banner__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.banner__spara {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #18171c;
+}
+
+.banner__photo {
+  position: relative;
+}
+
+.banner__ptext {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #18171c;
+}
+
+.banner__learn {
+  position: absolute;
+  top: 40%;
+  left: 23%;
+  width: 30%;
+  -webkit-transform: translate(23% 40%);
+          transform: translate(23% 40%);
+}
+
+.banner__icon {
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 50%;
+  background: #f6f6f6;
+  line-height: 25px;
+  text-align: center;
+  margin-left: 30px;
+  color: #464549;
+  margin-top: -25px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.banner__icon:hover {
+  color: white;
+  background: #8873ef;
+}
+
+.banner__sidetext {
+  position: absolute;
+  bottom: 0;
+  right: -80px;
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #18171c;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  color: #18171c;
+}
+
+.service {
+  background: #fcda69;
+  padding: 100px 0;
+}
+
+.service__item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.service__item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #000;
+}
+
+.service__number {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #18171c;
+  margin-top: 10px;
+}
+
+.service__text {
+  font-family: "Merriweather", serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #18171c;
+  margin-top: 10px;
+}
+
+.service__para {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #464549;
+  margin-top: 50px;
+}
+
+.service__icon {
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  background: #8873ef;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 150px;
+  color: white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.service__icon:hover {
+  color: #8873ef;
+  background: white;
+}
+
+.service__img {
+  margin-top: 150px;
+}
+
+.service__bottomimg {
+  position: relative;
+}
+
+.service__imgarrow {
+  position: absolute;
+  bottom: 53px;
+  left: 65px;
+  font-size: 45px;
+  color: #8873ef;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.service__imgarrow:hover {
+  color: white;
+}
+
+.skill {
+  padding: 100px 0;
+}
+
+.skill__title {
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #18171c;
+  margin-top: 50px;
+}
+
+.skill__skilldetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skill__item {
+  width: 160px;
+  margin-top: 50px;
+}
+
+.skill__item:hover .skill__itemicon {
+  background: #8873ef;
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.skill__item:hover .skill__itemtitle {
+  color: #18171c;
+}
+
+.skill__itemicon {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  background: #000;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.skill__itemtitle {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #464549;
+  margin-top: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.skill__exptitle {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #18171c;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.skill__expitem {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.skill__expitem:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #000;
+}
+
+.skill__number {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #18171c;
+  margin-top: 10px;
+}
+
+.skill__text {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #18171c;
+  margin-top: 10px;
+}
+
+.skill__para {
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #464549;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.skill__hire {
+  position: relative;
+}
+
+.skill__meimg {
+  position: absolute;
+  right: 0;
+}
+
+.skill__hireme {
+  position: absolute;
+  top: 250px;
+  right: 120px;
+  z-index: 9999;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.skill__hireme:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.project {
+  padding: 100px 0;
+  background: #fcda69;
+  margin-top: 30px;
+  position: relative;
+}
+
+.project__item {
+  margin-top: 70px;
+  position: relative;
+}
+
+.project__item:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  content: "";
+}
+
+.project__item:hover .project__img {
+  box-shadow: 0px 10px 33px 0px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 0px 10px 33px 0px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 0px 10px 33px 0px rgba(0, 0, 0, 0.41);
+}
+
+.project__item:hover .project__icon {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.project__item2 {
+  margin-top: 150px;
+}
+
+.project__ititle {
+  margin-top: 30px;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #18171c;
+}
+
+.project__ipara {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #464549;
+  margin-top: 10px;
+}
+
+.project__icon {
+  margin-top: 30px;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #8873ef;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.project__icon:hover {
+  background: white;
+  color: #8873ef;
+}
+
+.project__aicon {
+  display: inline-block;
+  padding-left: 35px;
+}
+
+.project__img {
+  margin-top: 30px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.project__viewproject {
+  margin-top: 30px;
+  margin-left: 235px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.project__viewproject:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.testi {
+  padding: 100px 0;
+}
+
+.testi__text {
+  padding: 20px 0px;
+}
+
+.testi__comm {
+  margin-top: 100px;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #464549;
+  line-height: 40px;
+  width: 700px;
+  position: relative;
+}
+
+.testi__comm:before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -50px;
+  width: 115%;
+  height: 2px;
+  background: #000;
+}
+
+.testi__comm:after {
+  content: "";
+  position: absolute;
+  bottom: -100px;
+  left: -50px;
+  width: 115%;
+  height: 2px;
+  background: #000;
+}
+
+.testi__name {
+  margin-top: 30px;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #18171c;
+}
+
+.testi__desig {
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #464549;
+  margin-top: 5px;
+}
+/*# sourceMappingURL=index.css.map */

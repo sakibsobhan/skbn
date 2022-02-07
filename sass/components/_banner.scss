@@ -1,0 +1,137 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+// banner__info
+.banner {
+  padding: 100px 0;
+
+  &__hello {
+    @include font($ff, 20px, 400, $hcolor);
+    transform-origin: 0 0;
+    transform: rotate(-15deg);
+  }
+
+  &__titel {
+    @include font($ff, 70px, 700, $tcolor);
+  }
+
+  &__para {
+    @include font($ff, 16px, 400, $pcolor);
+    padding: 60px 0;
+    position: relative;
+    margin-left: 60px;
+    padding-right: 80px;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 42%;
+      left: -58px;
+      width: 30px;
+      height: 2px;
+      background: #000;
+      transform: translateY(-42%);
+    }
+  }
+
+  &__talk {
+    @include font($ff, 16px, 400, white);
+    padding: 20px 30px;
+    background: $hcolor;
+    border: 1px solid $hcolor;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: 0.4s;
+
+    i {
+      margin-left: 10px;
+    }
+
+    &:hover {
+      color: $hcolor;
+      background: white;
+      border: 1px solid $hcolor;
+    }
+  }
+
+  &__port {
+    @include font($ff, 16px, 400, $tcolor);
+    padding: 20px 30px;
+    border-radius: 20px;
+    transition: 0.4s;
+    border: 1px solid white;
+
+    i {
+      margin-left: 10px;
+      transform: rotate(45deg);
+      font-size: 20px;
+      transition: 0.4s;
+    }
+
+    &:hover {
+      color: $hcolor;
+      background: white;
+      border: 1px solid $hcolor;
+    }
+  }
+  &__social {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  &__spara {
+    @include font($ff, 16px, 400, $tcolor);
+  }
+}
+
+// banner__photo
+.banner {
+  &__photo {
+    position: relative;
+  }
+
+  &__ptext {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    transform: translateY(10%);
+    @include font($ff, 16px, 400, $tcolor);
+  }
+
+  &__learn {
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    width: 30%;
+    transform: translate(23% 40%) scale(1);
+    transition: .4s;
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+
+  &__icon {
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 50%;
+    background: #f6f6f6;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 30px;
+    color: $pcolor;
+    margin-top: -25px;
+    transition: 0.4s;
+    &:hover {
+      color: white;
+      background: $hcolor;
+    }
+  }
+  &__sidetext {
+    position: absolute;
+    bottom: 0;
+    right: -80px;
+    @include font($ff, 14px, 400, $tcolor);
+    transform: rotate(-90deg);
+    color: $tcolor;
+  }
+}
